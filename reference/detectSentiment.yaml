@@ -29,6 +29,12 @@ paths:
                       Neutral: 0.008563132025301456
                       Negative: 0.0010949420975521207
                     Sentiment: POSITIVE
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
       operationId: get-detectSentiment
       description: 'Detect sentiment of provided text. Supported languages: English, Spanish, French, German, Italian, Portugese, Arabic, Hindi, Japanese, Korean, Chinese, Chinese (Taiwanese)'
       parameters:
