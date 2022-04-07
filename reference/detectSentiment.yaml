@@ -13,8 +13,6 @@ paths:
   /detectSentiment:
     get:
       summary: Your GET endpoint
-      tags:
-        - detectSentument
       responses:
         '200':
           description: OK
@@ -40,7 +38,9 @@ paths:
           name: text
           description: Text to detect sentiment of
           required: true
+      tags:
+        - detectSentiment
 components:
   schemas: {}
 tags:
-  - name: detectSentument
+  - name: detectSentiment
