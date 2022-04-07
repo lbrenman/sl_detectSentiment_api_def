@@ -32,7 +32,7 @@ paths:
                       Negative: 0.0010949420975521207
                     Sentiment: POSITIVE
       operationId: get-detectSentiment
-      description: Detect sentiment
+      description: 'Detect sentiment of provided text. Supported languages: English, Spanish, French, German, Italian, Portugese, Arabic, Hindi, Japanese, Korean, Chinese, Chinese (Taiwanese)'
       parameters:
         - schema:
             type: string
