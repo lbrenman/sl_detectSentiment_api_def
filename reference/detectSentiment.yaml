@@ -39,21 +39,6 @@ paths:
             application/json:
               schema:
                 type: object
-                properties:
-                  message:
-                    type: string
-                  code:
-                    type: string
-                  time:
-                    type: string
-                  requestId:
-                    type: string
-                  statusCode:
-                    type: integer
-                  retryable:
-                    type: boolean
-                  retryDelay:
-                    type: number
                 x-examples:
                   example-1:
                     message: 'Value ''nl'' at ''languageCode''failed to satisfy constraint: Member must satisfy enum value set: [ar, hi, ko, zh-TW, ja, zh, de, pt, en, it, fr, es]'
@@ -63,6 +48,21 @@ paths:
                     statusCode: 400
                     retryable: false
                     retryDelay: 90.00311674193672
+                properties:
+                  message:
+                    type: string
+                  code:
+                    type: string
+                  time:
+                    type: number
+                  requestId:
+                    type: string
+                  statusCode:
+                    type: integer
+                  retryable:
+                    type: boolean
+                  retryDelay:
+                    type: number
               examples:
                 example-1:
                   value:
