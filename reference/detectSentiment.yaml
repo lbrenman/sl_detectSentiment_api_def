@@ -55,7 +55,7 @@ paths:
                     type: string
                   time:
                     type: string
-                    format: date
+                    format: date-time
                   requestId:
                     type: string
                   statusCode:
