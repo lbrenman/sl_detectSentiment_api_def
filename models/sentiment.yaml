@@ -38,3 +38,5 @@ properties:
 required:
   - SentimentScore
   - Sentiment
+x-tags:
+  - sentiment
