@@ -5,11 +5,11 @@ info:
   contact:
     name: Leor Brenman
     email: lbrenman99@hotmail.com
-    url: www.leorbrenman.com
+    url: 'http://www.leorbrenman.com'
   description: 'Detect sentiment  '
   license:
     name: Apache 2.0
-    url: www.leorbrenman.com
+    url: 'http://www.leorbrenman.com'
 servers:
   - url: 'http://localhost:8080/api'
     description: Local
