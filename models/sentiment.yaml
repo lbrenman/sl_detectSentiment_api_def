@@ -8,7 +8,6 @@ x-examples:
       Neutral: 0.008563132025301456
       Negative: 0.0010949420975521207
     Sentiment: POSITIVE
-examples: []
 properties:
   SentimentScore:
     type: object
