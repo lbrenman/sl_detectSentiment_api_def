@@ -1,13 +1,4 @@
 type: object
-x-examples:
-  example-1:
-    message: 'Value ''nl'' at ''languageCode''failed to satisfy constraint: Member must satisfy enum value set: [ar, hi, ko, zh-TW, ja, zh, de, pt, en, it, fr, es]'
-    code: ValidationException
-    time: '2022-04-07T23:13:35.103Z'
-    requestId: 2d548718-6aaa-4be7-b8f6-702b3f0669f7
-    statusCode: 400
-    retryable: false
-    retryDelay: 90.00311674193672
 properties:
   message:
     type: string
